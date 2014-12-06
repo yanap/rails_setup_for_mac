@@ -1,0 +1,10 @@
+#!/bin/zsh
+
+# gem
+gem i rubygems-update
+update_rubygems
+gem -v
+gem pristine --all
+
+# bundler
+gem install bundler
