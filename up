@@ -1,0 +1,20 @@
+#!/bin/zsh
+
+brew update
+
+# rbenvとruby-build入れて新しめのruby入れる
+brew install rbenv
+brew install --HEAD ruby-build
+# rbenv install --list
+# install なんてコマンドねぇよっていわれたときはruby-build入れなおすといいよ
+rbenv install 2.1.5
+rbenv global 2.1.5
+
+# javaいれる elasticsearchで使うから
+brew cask install java
+
+# backend middle ware
+brew install mysql
+brew install redis
+brew install elasticsearch
+
