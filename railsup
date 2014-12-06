@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# task一覧
+rake -T
+
+# dbとか作る
+rake db:setup
+
+
