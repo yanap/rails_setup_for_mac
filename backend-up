@@ -1,0 +1,10 @@
+#!/bin/zsh
+
+# mysql起動
+mysql.server start
+
+# redis 起動
+redis-server /usr/local/etc/redis.conf
+
+# elasticsearch 起動
+elasticsearch -d
