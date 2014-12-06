@@ -19,4 +19,10 @@ curl https://raw.githubusercontent.com/yanap/dotfiles/december/setup.sh | sh
 
 ↑ これして、ターミナルの設定とか、エディタの設定とかおわてる状態で
 
+# そして up
+
+```
+zsh up
+```
+
 
