@@ -25,4 +25,14 @@ curl https://raw.githubusercontent.com/yanap/dotfiles/december/setup.sh | sh
 zsh up
 ```
 
+## bundler
 
+opensslでエラーになったけど、ruby入れ直したらいけた
+
+やりたいプロジェクトで
+
+```
+bundle install --path vendor/bundle
+```
+
+http://bundler.io/
